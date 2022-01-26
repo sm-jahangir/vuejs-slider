@@ -26,6 +26,10 @@ const vueProgressbarOptions = {
 
 Vue.use(VueProgressBar, vueProgressbarOptions)
 
+// Vue Carousel Register Globally for use it
+// import VueCarousel from 'vue-carousel';
+// Vue.use(VueCarousel);
+
 new Vue({
   render: h => h(App),
   router,// for router
